@@ -1,4 +1,4 @@
-import Logo from "@/assets/Logo.png";
+import Logo from "@/assets/AzaharaText.png";
 import { Dispatch, SetStateAction } from "react";
 
 interface IFooter {
@@ -17,7 +17,7 @@ const Footer = ({ setShowModal }: IFooter) => {
           >
             Aviso Legal y Política de Privacidad:
           </p>
-          <p>© Azahara All Rights Reserved.</p>
+          <p>© Azahara todos los derechos reservados.</p>
         </div>
       </div>
     </footer>
