@@ -2,6 +2,8 @@ import { motion } from "framer-motion";
 import HText from "../../shared/HText";
 import { SelectedPage, TestimonialsType } from "../../shared/types";
 import people1 from "./../../assets/people1.png";
+import people2 from "./../../assets/people2.png";
+import people3 from "./../../assets/people3.png";
 import Testimony from "./Testimony";
 
 const testimonials: Array<TestimonialsType> = [
@@ -11,24 +13,14 @@ const testimonials: Array<TestimonialsType> = [
     client: "María P",
   },
   {
-    image: people1,
-    testimony: "Excelente servicio, mi piel nunca se había sentido tan bien.",
-    client: "María P",
+    image: people2,
+    testimony: "Después de probar muchos productos, finalmente encontré algo que realmente funciona. Mi piel se siente increíblemente suave y saludable.",
+    client: "Juan R",
   },
   {
-    image: people1,
-    testimony: "Excelente servicio, mi piel nunca se había sentido tan bien.",
-    client: "María P",
-  },
-  {
-    image: people1,
-    testimony: "Excelente servicio, mi piel nunca se había sentido tan bien.",
-    client: "María P",
-  },
-  {
-    image: people1,
-    testimony: "Excelente servicio, mi piel nunca se había sentido tan bien.",
-    client: "María P",
+    image: people3,
+    testimony: "Nunca pensé que mi piel pudiera verse tan radiante. Este servicio ha sido una revelación para mi rutina de cuidado personal.",
+    client: "Laura M",
   },
 ];
 
@@ -45,7 +37,7 @@ type Props = {
 
 const Testimonials = ({ setSelectedPage }: Props) => {
   return (
-    <section id="testimonials" className="w-full bg-gray-20 py-32">
+    <section id="testimonials" className="w-full bg-gray-20 py-28">
       <motion.div
         onViewportEnter={() => setSelectedPage(SelectedPage.Testimonials)}
       >

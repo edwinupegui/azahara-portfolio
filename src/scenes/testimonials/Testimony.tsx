@@ -6,7 +6,7 @@ type Props = {
 
 const Testimony = ({ image, testimony, client }: Props) => {
   return (
-    <div className="relative w-auto px-10 h-[9rem] rounded-lg bg-slate-50 flex flex-col justify-center items-center">
+    <div className="relative w-auto px-10 h-[12rem] rounded-lg bg-slate-50 flex flex-col justify-center items-center">
       <img
         className="rounded-full w-20 absolute -top-5"
         alt={`${image}`}
